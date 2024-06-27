@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-9-10.Home work</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4">Task Manager</h2>
+        <form id="taskForm" class="mt-4 mb-4">
+            <div class="form-group">
+                <label for="taskInput">Добавить задачу:</label>
+                <input type="text" class="form-control" id="taskInput" placeholder="Введите задачу..." required>
+            </div>
+            <button type="submit" class="btn btn-primary">Добавить</button>
+        </form>
+
+        <ul id="taskList" class="list-group task-list"></ul>
+    </div>
+
+    <button id="openModalBtn" class="btn btn-primary">Открыть модальное окно</button>
+
+    <!-- Затемненный фон и модальное окно -->
+    <div id="overlay" class="overlay"></div>
+    <div id="modal" class="modal">
+        <h2>Модальное окно</h2>
+        <p>Содержимое модального окна...</p>
+        <button id="closeModalBtn" class="close-btn">&times;</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

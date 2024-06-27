@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0; /* Цвет фона по умолчанию */
+    transition: background-color 0.5s ease;
+  }
+  
+  .image-link.selected {
+    border: 2px solid #007bff; /* Пример стиля для выделения выбранной картинки */
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .gallery img {
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }  
