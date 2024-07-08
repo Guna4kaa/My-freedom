@@ -1,0 +1,14 @@
+footer {
+    background-color: rgb(10, 51, 213);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.text {
+    color: white
+}
+
+.companyInfo {
+    max-width: 400px;
+}

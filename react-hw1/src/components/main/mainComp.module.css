@@ -1,0 +1,29 @@
+main {
+    padding: 80px;
+    background-color: rgb(153, 119, 246);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px solid rgba(4, 4, 4, 0.919);
+}
+
+.title {
+    font-size: 24px;
+    margin: auto;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.button {
+    width: 100px;
+    font-size: 18px;
+    margin: auto;
+}
